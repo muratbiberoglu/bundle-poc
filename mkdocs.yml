@@ -1,0 +1,72 @@
+site_name: Algorithm Program
+nav:
+  - Home: index.md
+  - About: about.md
+  - Introduction: introduction.md
+theme:
+  name: material
+  logo: https://images.squarespace-cdn.com/content/v1/58a59506414fb5112de476f0/1497266381919-TC1FUFMZRD558R9XUYPD/inzva.png?format=1500w
+  features:
+    - toc.follow
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: black
+      accent: grey
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: black
+      accent: purple
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/inzva
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/inzvaspace
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/inzva.space/
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/inzva/
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a href="https://inzva.com/" target="_blank" rel="noopener">inzva</a>
